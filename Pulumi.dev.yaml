@@ -1,0 +1,7 @@
+config:
+  aws:region: us-east-1
+  aws-ec2-pulumi:backend_name: backend
+  aws-ec2-pulumi:backend_type: t3.micro
+  aws-ec2-pulumi:frontend_name: frontend
+  aws-ec2-pulumi:frontend_type: t3.micro
+encryptionsalt: v1:eCAk7s5/7aQ=:v1:gMOsFSCVMAmk9Bg6:LEgb74kUB0MA2IZ89Dy2qpgRXAKOpw==

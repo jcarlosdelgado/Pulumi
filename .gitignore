@@ -1,0 +1,78 @@
+# ==============================================================================
+# .gitignore para Pulumi + Python en AWS (Optimizado para GitHub)
+# ==============================================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# --- Entornos Virtuales ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- CREDENCIALES Y SECRETOS DE AWS (CRÍTICO PARA SEGURIDAD) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pub
+*.id_rsa
+id_rsa
+credentials
+aws_credentials.json
+.aws/
+secrets/
+*.tfstate
+*.tfstate.*
+
+# --- Pulumi ---
+.pulumi/
+*.bak
+Pulumi.*.backup.yaml
+
+# --- Logs y depuración ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- IDEs y Editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Archivos de Sistema Operativo (Windows & macOS) ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride

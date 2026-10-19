@@ -1,0 +1,6 @@
+name: aws-ec2-pulumi
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Despliegue seguro de una instancia AWS EC2 con Pulumi en Python
